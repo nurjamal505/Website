@@ -1,5 +1,53 @@
 body { 
-    font-family: "Lato", sans-serif;
+    font-family: 'Lato', sans-serif;
     padding: 0;
     margin: 0;
+}
+
+nav{
+    background-color: cornflowerblue;
+    color: white;
+    padding: 25px 55px;
+}
+
+.navTop{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.search{
+    display:flex;
+    align-items: center;
+    background-color: gray;
+    padding: 12px 22px;
+    border-radius: 10px;
+}
+
+.searchInput{
+    border: none;
+    background-color: transparent;
+}
+
+.searchInput::placeholder{
+    color: lightgray;
+}
+
+.limitedOffer{
+    font-size: 20px;
+    border-bottom: 3px solid greenyellow;
+    cursor: pointer;
+}
+
+.navBottom{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menuItem{
+    margin-right: 55px;
+    cursor: pointer;
+    color: white;
+    font-weight: 400;
 }
